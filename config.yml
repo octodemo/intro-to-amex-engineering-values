@@ -1,14 +1,15 @@
-title: Intro to AMEX Engineering Values
+title: Intro to  Engineering Values
 description: >-
-  There are millions of projects at AMEX, all competing for attention from the
-  millions of AMEX Developers to help. Learn how to help your project stand out
-  and build up the AMEX Engineering Values.
+  There are millions of projects at [Customer], all competing for attention from the
+  millions of [Customer] Developers to help. Learn how to help your project stand out
+  and build up the [Customer] Engineering Values.
 template:
-  repo: intro-to-amex-engineering-values-template
-  name: intro-to-amex-engineering-values
+  repo: intro-to-[Customer]-engineering-values-template
+  name: intro-to-[Customer]-engineering-values
+  description: 'Testing Course Creation '
 before:
   - type: createIssue
-    title: Welcome!
+    title: Welcome to the Engineering Value course.
     body: new-issue.md
 steps:
   - title: First step
