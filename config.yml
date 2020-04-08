@@ -1,20 +1,65 @@
 title: Intro to  Engineering Values
+title: Intro to AMEX Engineering Values
 description: >-
-  There are millions of projects at [Customer], all competing for attention from the
-  millions of [Customer] Developers to help. Learn how to help your project stand out
-  and build up the [Customer] Engineering Values.
+  There are millions of projects at American Express, all competing for
+  attention from the millions of American Express Developers to help. Learn how
+  to help your agile team and develop your product while building up the
+  American Express Engineering Values.
 template:
-  repo: intro-to-[Customer]-engineering-values-template
-  name: intro-to-[Customer]-engineering-values
-  description: 'Testing Course Creation '
+  repo: intro-to-amex-engineering-values-template
+  name: intro-to-amex-engineering-values
 before:
   - type: createIssue
-    title: Welcome to the Engineering Value course.
+    title: Welcome to the Engineering Values course!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
+  - title: Leadership at all levels
+    description: >-
+      Growing great leaders is one of the things that sets American Express
+      apart. Every employee has the opportunity—and is encouraged—to take their
+      personal leadership to the next level through a wide variety of leadership
+      and learning programs. The American Express Leadership Academy offers the
+      very best tools and training in leadership development from across the
+      company and from the world’s leading practitioners.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+  - title: Doing work that matters
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    description: >-
+      American Express is known for backing our customers to help them achieve
+      their goals and dreams, both big and small. At American Express, we’re
+      changing the ways people live and work through meaningful projects with
+      real-world impact. Working with teams across the organization, our
+      colleagues and leaders can make a difference by improving the everyday
+      lives of customers around the world.
+    event: check_run.completed
+  - title: Thriving in work and life
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    description: >-
+      Our employees and their families feel supported at every stage of their
+      lives. We provide resources and benefits that help support their physical,
+      financial and emotional well-being, such as our award-winning global
+      corporate wellness program, Healthy Living, and many others.
+    event: create
+  - title: Embracing diversity and inclusion
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    description: >-
+      Creating an inclusive culture is both a part of who we are and what we do
+      together. We value and embrace the diversity of thought, backgrounds and
+      experiences of all our employees. Through our Employee Networks,
+      participants can broaden their associations with other employees while
+      expanding their knowledge of the business. American Express is a place
+      where being yourself matters.
+    event: check_suite
+
