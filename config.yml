@@ -7,9 +7,10 @@ description: >-
 template:
   repo: intro-to-amex-engineering-values-template
   name: intro-to-amex-engineering-values
+  description: 'A robot powered training repository :robot:'
 before:
   - type: createIssue
-    title: Welcome to the Engineering Values course!
+    title: Welcome to the course!
     body: new-issue.md
 steps:
   - title: Leadership at all levels
@@ -17,7 +18,7 @@ steps:
       Growing great leaders is one of the things that sets American Express
       apart.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: closeIssue
   - title: Doing work that matters
@@ -32,7 +33,7 @@ steps:
       real-world impact. Working with teams across the organization, our
       colleagues and leaders can make a difference by improving the everyday
       lives of customers around the world.
-    event: check_run.completed
+    event: issues.assigned
   - title: Thriving in work and life
     actions:
       - type: createIssue
@@ -43,7 +44,7 @@ steps:
       lives. We provide resources and benefits that help support their physical,
       financial and emotional well-being, such as our award-winning global
       corporate wellness program, Healthy Living, and many others.
-    event: create
+    event: issues.assigned
   - title: Embracing diversity and inclusion
     actions:
       - type: createIssue
@@ -56,5 +57,4 @@ steps:
       participants can broaden their associations with other employees while
       expanding their knowledge of the business. American Express is a place
       where being yourself matters.
-    event: check_suite
-
+    event: issues.assigned
