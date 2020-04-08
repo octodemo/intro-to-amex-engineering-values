@@ -1,9 +1,9 @@
 title: Intro to AMEX Engineering Values
 description: >-
   There are millions of projects at American Express, all competing for
-  attention from American Express Developers to help. Learn how
-  to collaborate with your agile team and develop your product while building up the
-  American Express Engineering Values.
+  attention from American Express Developers to help. Learn how to collaborate
+  with your agile team and develop your product while building up the American
+  Express Engineering Values.
 template:
   repo: intro-to-amex-engineering-values-template
   name: intro-to-amex-engineering-values
@@ -13,34 +13,38 @@ before:
     title: Welcome to the course!
     body: new-issue.md
 steps:
-  - title: Leadership at all levels
+  - title: 'Leadership at all levels '
     description: >-
-      Growing great leaders is one of the things that sets American Express apart.
+      Growing great leaders is one of the things that sets American Express
+      apart. 
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
         with: a-response-file.md
-  - title: Doing work that matters
+  - title: 'Doing work that matters '
     actions:
       - type: createIssue
         title: A new issue
         body: a-response-file.md
     description: >-
-      American Express is known for backing our customers to help them achieve their goals and dreams. 
+      American Express is known for backing our customers to help them achieve
+      their goals and dreams.  
     event: issues.closed
-  - title: Thriving in work and life
+  - title: 'Thriving in work and life '
     actions:
       - type: respond
         with: a-response-file.md
     description: >-
-      Our employees and their families feel supported at every stage of their lives.
+      Our employees and their families feel supported at every stage of their
+      lives. 
     event: issues.assigned
-  - title: Embracing diversity and inclusion
+  - title: 'Embracing diversity and inclusion '
     actions:
       - type: createIssue
         title: A new issue
         body: a-response-file.md
     description: >-
-      Creating an inclusive culture is both a part of who we are and what we do together. 
+      Creating an inclusive culture is both a part of who we are and what we do
+      together.  
     event: issues.closed
