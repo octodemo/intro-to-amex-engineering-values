@@ -15,11 +15,7 @@ steps:
   - title: Leadership at all levels
     description: >-
       Growing great leaders is one of the things that sets American Express
-      apart. Every employee has the opportunity—and is encouraged—to take their
-      personal leadership to the next level through a wide variety of leadership
-      and learning programs. The American Express Leadership Academy offers the
-      very best tools and training in leadership development from across the
-      company and from the world’s leading practitioners.
+      apart.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
