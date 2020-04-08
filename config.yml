@@ -15,8 +15,7 @@ before:
 steps:
   - title: Leadership at all levels
     description: >-
-      Growing great leaders is one of the things that sets American Express
-      apart.
+      Growing great leaders is one of the things that sets American Express apart.
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -28,22 +27,14 @@ steps:
         title: A new issue
         body: a-response-file.md
     description: >-
-      American Express is known for backing our customers to help them achieve
-      their goals and dreams, both big and small. At American Express, we’re
-      changing the ways people live and work through meaningful projects with
-      real-world impact. Working with teams across the organization, our
-      colleagues and leaders can make a difference by improving the everyday
-      lives of customers around the world.
+      American Express is known for backing our customers to help them achieve their goals and dreams. 
     event: issues.closed
   - title: Thriving in work and life
     actions:
       - type: respond
         with: a-response-file.md
     description: >-
-      Our employees and their families feel supported at every stage of their
-      lives. We provide resources and benefits that help support their physical,
-      financial and emotional well-being, such as our award-winning global
-      corporate wellness program, Healthy Living, and many others.
+      Our employees and their families feel supported at every stage of their lives.
     event: issues.assigned
   - title: Embracing diversity and inclusion
     actions:
@@ -51,10 +42,5 @@ steps:
         title: A new issue
         body: a-response-file.md
     description: >-
-      Creating an inclusive culture is both a part of who we are and what we do
-      together. We value and embrace the diversity of thought, backgrounds and
-      experiences of all our employees. Through our Employee Networks,
-      participants can broaden their associations with other employees while
-      expanding their knowledge of the business. American Express is a place
-      where being yourself matters.
+      Creating an inclusive culture is both a part of who we are and what we do together. 
     event: issues.closed
