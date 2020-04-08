@@ -20,8 +20,8 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: createIssue
-      - body: a-response-file.md
+      - type: respond
+        with: a-response-file.md
   - title: Doing work that matters
     actions:
       - type: createIssue
@@ -34,12 +34,11 @@ steps:
       real-world impact. Working with teams across the organization, our
       colleagues and leaders can make a difference by improving the everyday
       lives of customers around the world.
-    event: issues.assigned
+    event: issues.closed
   - title: Thriving in work and life
     actions:
-      - type: createIssue
-        title: A new issue
-        body: a-response-file.md
+      - type: respond
+        with: a-response-file.md
     description: >-
       Our employees and their families feel supported at every stage of their
       lives. We provide resources and benefits that help support their physical,
@@ -58,4 +57,4 @@ steps:
       participants can broaden their associations with other employees while
       expanding their knowledge of the business. American Express is a place
       where being yourself matters.
-    event: issues.assigned
+    event: issues.closed
