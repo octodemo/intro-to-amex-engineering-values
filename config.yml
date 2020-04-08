@@ -20,7 +20,8 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: closeIssue
+      - type: createIssue
+      - body: a-response-file.md
   - title: Doing work that matters
     actions:
       - type: createIssue
